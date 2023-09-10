@@ -1,0 +1,20 @@
+  .buton {
+      background: linear-gradient(to right,var(--bluebery-color),var(--blue-color));
+      border: 0;
+      padding: 0 3rem;
+      line-height: 4.2rem;
+      max-width: max-content;
+      color: white;
+      cursor: pointer;
+
+      a {
+          transition: 0.2s;
+          text-decoration: none;
+          color: white;
+      }
+  }
+
+  .buton:hover {
+      box-shadow: rgba(132, 144, 255, 1) 0px 20px 30px -10px;
+      transition: 0.2s;
+  }
